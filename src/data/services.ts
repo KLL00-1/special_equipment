@@ -133,13 +133,17 @@ export const catalog = {
     },
     {
       id: 'heavy-tow-truck', slug: 'gruzovoy-evakuator',
-      title: 'Эвакуатор грузовой 15 тонн', category: 'rental',
+      title: 'Эвакуатор грузовой', category: 'rental',
       shift: { hours: null, price: unknown },
       minimum: { hours: null, price: unknown }, hourly: unknown,
     },
     {
       id: 'excavation', slug: 'razrabotka-kotlovana',
       title: 'Разработка котлована', category: 'works', price: unknown,
+    },
+    {
+      id: 'xxxx', slug: 'xxxx',
+      title: 'Благоустройство', category: 'works', price: unknown,
     },
   ],
 } as const satisfies {
